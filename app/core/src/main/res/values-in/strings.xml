@@ -45,8 +45,17 @@
     <string name="install_inactive_slot">Pasang ke slot tidak aktif (Setelah OTA)</string>
     <string name="install_inactive_slot_msg">Perangkat Anda akan DIPAKSA untuk boot ke slot tidak aktif saat ini setelah dimulai ulang!\nGunakan opsi ini hanya setelah OTA selesai.\nLanjutkan?</string>
     <string name="setup_title">Penyiapan tambahan</string>
+    <string name="patch_image">Tambal firmware / image</string>
+    <string name="patch_image_msg">Format berkas dan hasil output yang didukung:\n• <b>Image boot / recovery (.img)</b>: menambal boot, init_boot, atau recovery dan menghasilkan .img hasil tambalan\n• <b>OTA / paket pabrik (.zip, payload.bin)</b>: mengekstrak image target dan menghasilkan .img hasil tambalan\n• <b>Firmware Odin (.tar)</b>: menambal image di dalamnya dan menghasilkan .tar hasil tambalan\n• <b>Image recovery Googlebook (.bin, .zip)</b>: menghasilkan .bin hasil tambalan atau memasang ke flashdisk USB</string>
+    <string name="select_from_storage">Pilih dari penyimpanan</string>
     <string name="download_dialog_title">Masukkan URL image</string>
     <string name="download_dialog_msg">Image OTA lengkap atau image pabrik</string>
+    <string name="download_googlebook_recovery_image">Unduh image recovery Googlebook terbaru</string>
+    <string name="download_pixel_factory_image">Unduh image pabrik Pixel terbaru</string>
+    <string name="output_destination">Tujuan output</string>
+    <string name="save_to_file">Simpan ke berkas</string>
+    <string name="no_usb_drive_found">Flashdisk USB tidak terdeteksi. Masukkan flashdisk USB.</string>
+    <string name="usb_overwrite_warning">Semua data pada flashdisk USB yang dipilih akan dihapus secara permanen.</string>
     <string name="reboot_delay_toast">Memulai ulang dalam 5 detik…</string>
     <string name="flash_screen_title">Pemasangan</string>
 
@@ -56,6 +65,7 @@
     <string name="grant">Izinkan</string>
     <string name="superuser_grant">Izinkan superuser</string>
     <string name="su_allow_toast">%1$s diberi hak akses superuser</string>
+    <string name="su_legacy_cmd">Peringatan: Baris perintah yang tidak didukung terdeteksi</string>
     <string name="su_deny_toast">%1$s ditolak hak akses superuser</string>
     <string name="su_snack_grant">Hak akses superuser %1$s diberikan</string>
     <string name="su_snack_deny">Hak akses superuser %1$s ditolak</string>
@@ -79,6 +89,7 @@
     <string name="menuSaveLog">Simpan log</string>
     <string name="menuClearLog">Bersihkan log</string>
     <string name="logs_cleared">Log berhasil dibersihkan</string>
+    <string name="log_save_failed">Gagal menyimpan log</string>
     <string name="enabled">Aktif</string>
     <string name="disabled">Nonaktif</string>
     <string name="pid">PID: %1$d</string>
@@ -228,5 +239,7 @@
     <string name="install_unknown_denied">Izinkan \"Instal aplikasi tidak dikenal\" untuk mengaktifkan fungsi ini</string>
     <string name="app_not_found">Tidak ditemukan aplikasi untuk menangani tindakan ini</string>
     <string name="reboot_apply_change">Mulai ulang untuk menerapkan perubahan</string>
-</resources>
+    <string name="running_exit_title">Eksekusi sedang berjalan</string>
+    <string name="running_exit_msg">Apakah Anda yakin ingin keluar? Operasi yang sedang berjalan mungkin tidak selesai.</string>
 
+</resources>
